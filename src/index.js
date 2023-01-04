@@ -10,11 +10,13 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  <React.StrictMode className="page">
     <Header />
-    <About />
-    <Resume />
-    <Projects />
+    <div className='content'>
+      <About className="about-section" />
+      <Resume className="resume-section"/>
+      <Projects />
+    </div>
     <Contact />
   </React.StrictMode>
 );
