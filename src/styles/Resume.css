@@ -1,4 +1,22 @@
 .resume-container{
-    height: 200px;
-    background-color: lightcoral;
+    padding-bottom:20px;
+   display: flex;
+}
+.resume-container h4, h2{
+    padding-top:20px;
+}
+.side-bar{
+    width: 40%;
+    padding-left: 30px;
+}
+.school{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.school h4{
+    padding:0px;
+}
+.experience{
+    padding: 0px 30px;
 }
