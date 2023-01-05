@@ -5,17 +5,17 @@ import Header from './components/Header';
 import About from './components/About';
 import Resume from './components/Resume';
 import Projects from './components/Projects';
-import Contact from './components/Contact';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Header />
-    <About />
-    <Resume />
-    <Projects />
-    <Contact />
+    <div className='content'>
+      <Header />
+      <About />
+      <Resume />
+      <Projects />
+    </div>
   </React.StrictMode>
 );
 

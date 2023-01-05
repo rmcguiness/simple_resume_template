@@ -1,0 +1,13 @@
+.projects-container{
+    justify-content: center;
+}
+
+.projects-container h2{
+    text-align: center;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+}
+
+.project1{}

@@ -5,22 +5,26 @@ import '../styles/Resume.css';
 const Resume = () => {
   return (
     <div className="resume-container">
-        <div className='side-bar'>
-            <div className='education'>
-                <h2>Education</h2>
-                <div className='school'>
-                    <h4>Lehigh University</h4>
-                    <p className='school-date'>Jan 2018 - May 2021</p>
-                </div>
-                <p className='education-desc'>B.A in Computer Science</p>
+        <div className='education'>
+            <h2>Education</h2>
+            <hr/>
+            <div className='school'>
+                <h4>Lehigh University</h4>
+                <p className='school-date'>Jan 2018 - May 2021</p>
             </div>
-            <div className='skills'>
-                <h2>Skills</h2>
-                <p>Python • PHP • Java • C/C++ • JavaScript • TypeScript • React • React-Native • Git</p>
-            </div>
+            <p className='education-desc'>B.A in Computer Science</p>
+            <ul>
+                <li>
+                    GPA: 4.0
+                </li>
+                <li>
+                    Course Work: Algorithms, OOP, multithreading
+                </li>
+            </ul>
         </div>
         <div className='experience'>
             <h2>Work Experience</h2>
+            <hr/>
             <div className='job'>
                 <h4>Perficient</h4>
                 <p className='job-title'>Software Engineer</p>
@@ -38,7 +42,11 @@ const Resume = () => {
                 </ul>
             </div>
         </div>
-        
+        <div className='skills'>
+            <h2>Skills</h2>
+            <hr/>
+            <p>Python • PHP • Java • C/C++ • JavaScript • TypeScript • React • React-Native • Git</p>
+        </div>
     </div>
     
   )

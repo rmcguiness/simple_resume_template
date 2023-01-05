@@ -1,22 +1,23 @@
 .resume-container{
     padding-bottom:20px;
-   display: flex;
+    width: 80%;
+    margin: auto;
+}
+.resume-container br{
+    border: 1px solid black;
 }
 .resume-container h4, h2{
-    padding-top:20px;
+    padding-top:0px;
 }
 .side-bar{
     width: 40%;
     padding-left: 30px;
 }
 .school{
-    padding-top: 10px;
+    padding-top: 0px;
     display: flex;
     justify-content: space-between;
 }
 .school h4{
     padding:0px;
-}
-.experience{
-    padding: 0px 30px;
 }
