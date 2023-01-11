@@ -22,6 +22,11 @@ const Resume = () => {
                 </li>
             </ul>
         </div>
+        <div className='skills'>
+            <h2>Skills</h2>
+            <hr/>
+            <p>Python • PHP • Java • C/C++ • JavaScript • TypeScript • React • React-Native • Git</p>
+        </div>
         <div className='experience'>
             <h2>Work Experience</h2>
             <hr/>
@@ -42,11 +47,7 @@ const Resume = () => {
                 </ul>
             </div>
         </div>
-        <div className='skills'>
-            <h2>Skills</h2>
-            <hr/>
-            <p>Python • PHP • Java • C/C++ • JavaScript • TypeScript • React • React-Native • Git</p>
-        </div>
+
     </div>
     
   )

@@ -6,6 +6,10 @@
 .resume-container br{
     border: 1px solid black;
 }
+.resume-container h2{
+    padding-top: 20px;
+    text-align: center;
+}
 .resume-container h4, h2{
     padding-top:0px;
 }

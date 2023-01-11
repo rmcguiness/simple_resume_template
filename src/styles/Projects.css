@@ -9,5 +9,10 @@
     display: flex;
     justify-content: center;
 }
-
-.project1{}
+hr{ 
+    width: 80%;
+    margin: auto;
+}
+.project1{
+    margin-top: 15px;
+}

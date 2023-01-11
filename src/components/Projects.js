@@ -12,6 +12,7 @@ const Projects = () => {
   return (
     <div className='projects-container'>
         <h2>Projects</h2>
+        <hr/>
         <div className='cards'>
             <Card className="project1" sx={{ maxWidth: 445 }}>
                 <CardMedia
